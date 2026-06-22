@@ -1,10 +1,19 @@
 /*
 Question: What are the most optimal skills for data engineers-balancing both demand and salary?
   - Create a ranking column that combines count and median salary to identify the most valuable skills.  
-  - Focus only on remote Data Engineering positions with specified annual salaries 
+  - Focus only on remote Data Engineering positions with specified annual salaries. 
   - Why? 
     - This approach highlights skills that balance market demand and financial reward. It weights core skills appropriately, rather than letting rare, outlier skills distort the results
+
+
+Key Insights: 
+  - Terraform ranks as the most optimal skill overall, combining the highest salary ($184k) with strong demand (193 postings), giving it the highest optimal score. 
+  - Python remains one of the most valuable Data Engineering skills, with the highest demand (1,133 postings) while maintaing a strong median salary of $135k. 
+  - SQL is nearly as valuable as Python, appearing in 1,128 postings with a $130k median salary, making it a foundational skill for this field. 
+  - AWS is the highest ranked- cloud platform, offering a $137.3k median salary across 783 postings, demonstrating both high demand and competative pay.
+  - Airflow stands out among orchestration tools, with a $150l median salary and 386 postings, making it one of the best-paying high demand technologies.
 */
+
 
 SHOW TABLES;
 DESCRIBE job_postings_fact;
